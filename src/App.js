@@ -1,4 +1,5 @@
 import "./style.css";
+import WeatherInfo from "./WeatherInfo";
 
 function App() {
   return (
