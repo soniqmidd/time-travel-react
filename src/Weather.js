@@ -41,6 +41,9 @@ export default function Weather() {
               <li>
                 <span id="date">Last updated Wednesday at 08:38</span>
               </li>
+              <li>
+                <span>Clear Sky</span>
+              </li>
               <li id="description"></li>
             </ul>
           </div>
@@ -48,7 +51,12 @@ export default function Weather() {
           <div class="row">
             <div class="col-6">
               <div class="outdoorfix weather-temperature">
-                <img src="" alt="outdoor" id="icon" class="float-left" />
+                <img
+                  src="	https://openweathermap.org/img/wn/01d@2x.png"
+                  alt="outdoor"
+                  id="icon"
+                  class="float-left"
+                />
                 <div class="float-left">
                   <strong id="temperature">60</strong>
                   <span class="units">°F</span>
